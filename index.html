@@ -365,6 +365,43 @@
                 </td>
               </tr>
 
+              <tr onmouseout="denoise_stop()" onmouseover="denoise_start()">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='denoise_image'>
+                      <img src='images/denoise.png' width=100%>
+                    </div>
+                    <img src='images/denoise.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function denoise_start() {
+                      document.getElementById('denoise_image').style.opacity = "1";
+                    }
+
+                    function denoise_stop() {
+                      document.getElementById('denoise_image').style.opacity = "0";
+                    }
+                    denoise_stop()
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2411.11691">
+                    <span class="papertitle">Towards Degradation-Robust Reconstruction in Generalizable NeRF</span>
+                  </a>
+                  <br>
+                  <a href="https://arxiv.org/search/cs?searchtype=author&query=Park,+C+H">Chan Ho Park</a>,
+                  <a href="https://arxiv.org/search/cs?searchtype=author&query=Cheng,+K+L">Ka Leong Cheng</a>,
+                  <strong>Zhicheng Wang</strong>,
+                  <a href="https://arxiv.org/search/cs?searchtype=author&query=Chen,+Q">Qifeng Chen</a>
+                  <br>
+                  <em>arXiv</em>, 2024
+                  <br>
+                  <a href="https://arxiv.org/abs/2411.11691">arXiv</a>
+                  <p></p>
+                  <p>Degradation-robust generalizable NeRF with depth-aware denoising for handling blurred and degraded input images in 3D reconstruction.</p>
+                </td>
+              </tr>
+
               <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
                 <td style="padding:16px;width:20%;vertical-align:middle">
                   <div class="one">
