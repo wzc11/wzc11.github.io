@@ -204,6 +204,53 @@
                   <p>Best for frontier intelligence at speed</p>
                 </td>
               </tr>
+      
+              <tr onmouseout="PhysWorld_stop()" onmouseover="PhysWorld_start()">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='physworld_image'><video width=100% height=100% muted autoplay loop>
+                        <source src="images/PhysWorld.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/PhysWorld.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function PhysWorld_start() {
+                      document.getElementById('physworld_image').style.opacity = "1";
+                    }
+
+                    function PhysWorld_stop() {
+                      document.getElementById('physworld_image').style.opacity = "0";
+                    }
+                    PhysWorld_stop()
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://ibrnet.github.io/">
+                    <span class="papertitle">Robot Learning from a Physical World Model</span>
+                  </a>
+                  <br>
+                  <a href="https://pointscoder.github.io/">Jiageng Mao</a>,
+                  <a href="https://hesicheng.net/">Sicheng He</a>,
+                  <a href="https://www.linkedin.com/in/haoningwu/">Hao-Ning Wu</a>,
+                  <a href="https://qq456cvb.github.io/">Yang You</a>,
+                  <a href="https://scholar.google.com/citations?user=PoAvGRMAAAAJ&hl=en">Shuyang Sun</a>,
+                  <strong> Zhicheng Wang</strong>,
+                  <a href="https://www.linkedin.com/in/yanan-bao-95676230/">Yanan Bao</a>,
+                  <a href="https://huizhongchen.github.io/">Huizhong Chen</a>,
+                  <a href="https://geometry.stanford.edu/">Leonidas Guibas</a>,
+                  <a href="https://vitorguizilini.github.io/">Vitor Guizilini</a>,
+                  <a href="https://www.linkedin.com/in/howard-zhou-0a34b84/">Howard Zhou</a>,
+                  <a href="https://yuewang.xyz/">Yue Wang</a>
+                  <br>
+                  <em>ICRA</em>, 2025
+                  <br>
+                  <a href="https://jiageng.me/PhysWorld_Web/">project page</a> /
+                  <a href="https://github.com/PointsCoder/OpenReal2Sim">code</a> /
+                  <p></p>
+                  <p>PhysWorld unifies video generation and real-to-sim world modeling for zero-shot robotic manipulation.</p>
+                </td>
+              </tr>
 
               <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
                 <td style="padding:16px;width:20%;vertical-align:middle">
