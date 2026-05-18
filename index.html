@@ -290,6 +290,38 @@
                   <p>GaussianLens uses localized Gaussian densification to reconstruct high-resolution geometry on demand.</p>
                 </td>
               </tr>
+        
+              <tr onmouseout="gemini2_stop()" onmouseover="gemini2_start()">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='gemini2_image'>
+                      <img src='images/gemini3p_before.jpeg' width=100%>
+                    </div>
+                    <img src='images/gemini3p_before.jpeg' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function gemini2_start() {
+                      document.getElementById('gemini2_image').style.opacity = "1";
+                    }
+
+                    function gemini2_stop() {
+                      document.getElementById('gemini2_image').style.opacity = "0";
+                    }
+                    gemini2_stop()
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/">
+                    <span class="papertitle">Gemini 2.5</span>
+                  </a>
+                  <br>
+                  2025
+                  <br>
+                  <a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/">project page</a> /
+                  <a href="https://arxiv.org/abs/2507.06261">arXiv</a>
+                  <p>Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities</p>
+                </td>
+              </tr>
 
               <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
                 <td style="padding:16px;width:20%;vertical-align:middle">
