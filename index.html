@@ -410,6 +410,77 @@
                     we can amortize inference for view synthesis and reduce error rates by 15%.</p>
                 </td>
               </tr>
+
+              <tr onmouseout="knift_stop()" onmouseover="knift_start()">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='knift_image'>
+                      <img src='images/knift.png' width=100%>
+                    </div>
+                    <img src='images/knift.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function knift_start() {
+                      document.getElementById('knift_image').style.opacity = "1";
+                    }
+
+                    function knift_stop() {
+                      document.getElementById('knift_image').style.opacity = "0";
+                    }
+                    knift_stop()
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://developers.googleblog.com/2020/04/mediapipe-knift-template-based-feature-matching.html">
+                    <span class="papertitle">MediaPipe KNIFT: Template-based Feature Matching</span>
+                  </a>
+                  <br>
+                  <strong>Zhicheng Wang</strong>,
+                  <a href="https://scholar.google.com/citations?user=P8hLgNoAAAAJ&hl=en">Genzhi Ye</a>
+                  <br>
+                  <em>Google Blog</em>, 2020
+                  <br>
+                  <a href="https://developers.googleblog.com/2020/04/mediapipe-knift-template-based-feature-matching.html">blog post</a>
+                  <p></p>
+                  <p>Template-based feature matching algorithm optimized for mobile and real-time applications.</p>
+                </td>
+              </tr>
+
+              <tr onmouseout="glasses_stop()" onmouseover="glasses_start()">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='glasses_image'>
+                      <img src='images/glasses.png' width=100%>
+                    </div>
+                    <img src='images/glasses.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function glasses_start() {
+                      document.getElementById('glasses_image').style.opacity = "1";
+                    }
+
+                    function glasses_stop() {
+                      document.getElementById('glasses_image').style.opacity = "0";
+                    }
+                    glasses_stop()
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9443/94431J/Weakly-supervised-glasses-removal/10.1117/12.2178815.full">
+                    <span class="papertitle">Weakly Supervised Glasses Removal</span>
+                  </a>
+                  <br>
+                  <strong>Zhicheng Wang</strong>,
+                  <a href="https://scholar.google.com/citations?user=TFAktMEAAAAJ&hl=en">Yisu Zhou</a>,
+                  <a href="https://scholar.google.com/citations?user=hxWbl6MAAAAJ&hl=en">Lijie Wen</a>
+                  <br>
+                  <em>ICGIP</em>, 2014
+                  <br>
+                  <a href="https://www.researchgate.net/profile/Lijie-Wen/publication/273696542_Weakly_supervised_glasses_removal/links/550944ad0cf26ff55f851d53/Weakly-supervised-glasses-removal.pdf">PDF</a>
+                  <p></p>
+                  <p>Weakly supervised method to remove eyeglasses from face images using sparse coding and optical flow.</p>
+                </td>
+              </tr>
           </table>
 </body>
 
