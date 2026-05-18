@@ -1,0 +1,2 @@
+I am currently a staff research engineer in Google DeepMind. I am a core contributor of Gemini on vision area, working on Pretraining, SFT and RL. Recently I am focus on agentics tool use. 
+Before LLM/VLM, I mainly worked on 3D computer vision. I graduated from Tsinghua University and UCSD. I had several AI/AR startup experiences.
