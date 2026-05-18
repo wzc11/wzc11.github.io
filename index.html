@@ -66,6 +66,48 @@
             style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <tr onmouseout="cartesian_stop()" onmouseover="cartesian_start()" bgcolor="#ffffd0">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='cartesian_image'>
+                      <img src='images/cartesian.png' width=100%>
+                    </div>
+                    <img src='images/cartesian.png' width=100%>
+                  </div>
+                  <script type="text/javascript">
+                    function cartesian_start() {
+                      document.getElementById('cartesian_image').style.opacity = "1";
+                    }
+
+                    function cartesian_stop() {
+                      document.getElementById('cartesian_image').style.opacity = "0";
+                    }
+                    cartesian_stop()
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2605.09883">
+                    <span class="papertitle">The Cartesian Shortcut: Re-evaluate Vision Reasoning in Polar Coordinate
+                      Space</span>
+                  </a>
+                  <br>
+                  <a href="https://xia-hu.github.io/">Xia Hu</a>,
+                  <a href="https://yueeeeeeee.github.io/">Zhenrui Yue</a>,
+                  <a href="http://www.cs.cmu.edu/~bpotetz/">Brian Potetz</a>,
+                  <a href="http://www.howardzzh.com/">Howard Zhou</a>,
+                  <a href="https://geometry.stanford.edu/?member=guibas">Leonidas Guibas</a>,
+                  <a href="https://research.google/people/106420/">Chun-Ta Lu</a>,
+                  <strong>Zhicheng Wang</strong>
+                  <br>
+                  <a href="https://arxiv.org/abs/2605.09883">arXiv</a>
+                  <p></p>
+                  <p>
+                    introduce Polaris-Bench, a benchmark that dismantles models' reliance on grid-based textual
+                    shortcuts by shifting 53 visual reasoning tasks from Cartesian to Polar coordinates, revealing a
+                    dramatic performance collapse from up to 83% down to 39% despite identical logical constraints.
+                  </p>
+                </td>
+              </tr>
 
               <tr onmouseout="vbanana_stop()" onmouseover="vbanana_start()" bgcolor="#ffffd0">
                 <td style="padding:16px;width:20%;vertical-align:middle">
@@ -130,6 +172,35 @@
                 </td>
               </tr>
 
+              <tr onmouseout="gemini3_stop()" onmouseover="gemini3_start()">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='gemini3_image'><video width=100% height=100% muted autoplay loop>
+                        <source src="images/gemini3p_after.webm" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/gemini3p_before.jpeg' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function gemini3_start() {
+                      document.getElementById('gemini3_image').style.opacity = "1";
+                    }
+
+                    function gemini3_stop() {
+                      document.getElementById('gemini3_image').style.opacity = "0";
+                    }
+                    gemini3_stop()
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://gemini.google.com/">
+                    <span class="papertitle">Gemini 3</span>
+                  </a>
+                  <br>
+                  <a href="https://deepmind.google/models/gemini/flash/">project page</a> /
+                  <p>Best for frontier intelligence at speed</p>
+                </td>
+              </tr>
 
               <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
                 <td style="padding:16px;width:20%;vertical-align:middle">
